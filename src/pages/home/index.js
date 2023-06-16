@@ -76,7 +76,8 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 22,
         fontWeight: "bold",
-        color: "#0e0e0e",
+        // color: "#0e0e0e",
+        color: "#31343b"
     },
     form: {
         backgroundColor: "#fff",
@@ -96,5 +97,7 @@ const styles = StyleSheet.create({
         width: "90%",
         height: 54,
         maxWidth: "90%",
+        color: "#31343b",
+        fontWeight: 500
     },
 });
