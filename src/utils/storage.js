@@ -28,7 +28,7 @@ export async function removeItem(id) {
         return item.id !== id;
     });
     await AsyncStorage.setItem("@appreceitas", JSON.stringify(myFavorites));
-    console.log("item remvido com sucesso");
+    console.log("item removido com sucesso");
     return myFavorites;
 }
 
